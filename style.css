@@ -1,0 +1,76 @@
+
+
+body{
+  background-color: black;
+  background-image: url("assets/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: auto;
+
+
+  color: white;
+  font-size: 2vw;
+}
+
+#banner{
+  color: white;
+  font-size: 2vw;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 2vw;
+
+}
+
+.logo{
+  display: flex;
+  margin: 2vw;
+
+}
+
+#links{
+  display: flex;
+}
+
+.bannerlink{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  margin: 2vw;
+
+}
+
+#game{
+  margin: 5vw;
+  width: 90vw;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game img{
+  width: 30vw;
+  height: 25vw;
+}
+
+h1{
+  font-size: 4vw;
+  width: 100%;
+  padding: 1vw 0;
+}
+
+h2{
+  font-size: 3vw;
+  width: 100%;
+  padding: 1vw 0;
+}
+#game p{
+  padding: 1vw;
+}
+
+#AboutUs{
+  width: 70vw;
+  padding: 2vw;
+}
