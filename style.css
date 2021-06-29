@@ -1,11 +1,14 @@
 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: black;
-  background-image: url("assets/bg1.jpg");
+  background-image: url("assets/bgo.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: auto;
+  background-size: cover;
 
 
   color: white;
@@ -18,13 +21,12 @@ body{
   display: flex;
   justify-content: space-between;
 
-  margin: 2vw;
+  margin: 2vw 5vw;
 
 }
 
 .logo{
   display: flex;
-  margin: 2vw;
 
 }
 
@@ -53,24 +55,61 @@ body{
 #game img{
   width: 30vw;
   height: 25vw;
+  margin: 3vw;
 }
 
 h1{
   font-size: 4vw;
   width: 100%;
-  padding: 1vw 0;
+  padding: 1vw;
 }
 
 h2{
   font-size: 3vw;
   width: 100%;
-  padding: 1vw 0;
-}
-#game p{
   padding: 1vw;
+}
+p{
+  padding: 1vw;
+  width: 100%;
+}
+
+#HowToPlay{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  float: right;
+  justify-content: right;
+  text-align: right;
+  margin: 5vw;
+}
+
+#HowToPlay img{
+  position: relative;
+  left: 55vw;
+  width: 35vw;
+  height: 25vw;
+  float: right;
 }
 
 #AboutUs{
+  display: flex;
+  flex-wrap: wrap;
   width: 70vw;
-  padding: 2vw;
+  margin: 5vw;
+}
+
+#Cosmology{
+  margin: 5vw;
+  width: 90vw;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ContactUs{
+  margin: 5vw;
+  display: flex;
+  justify-content: space-between;
 }
