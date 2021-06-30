@@ -26,9 +26,7 @@
 
   <div id="banner">
     <div class="logo">
-      <p>
-        Dreams Logo
-      </p>
+      <a href="#">The Game</a>
     </div>
 
 
@@ -45,7 +43,20 @@
 
   <div id="game">
       <h1>Dreams of the Beginning</h1>
-      <img src="assets/greyx.png">
+      <div id="img_section">
+        <img class="main_img" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+        <img class="main_img hidden" src="assets/greyx.png">
+  
+      </div>
+
+      <h3 id="show_button">See More!</h3>
+      
       <h2>Goals</h2>
       <p>
         Dreams of the Beginning is a board game that inspires young
@@ -83,9 +94,14 @@
 
   </div>
 
-  <div id="HowToPlay">
+  <div id="HowToPlay" class= "right">
     <h1>How To Play</h1>
-    <img src="assets/greyx.png">
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/9YffrCViTVk" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+      gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
     <p>
       Here we might put the video we've made explaining the rules
     </p>
@@ -113,7 +129,7 @@
 
   </div>
 
-  <div id="AboutUs">
+  <div id="AboutUs"  class="left">
     <h1>About Us</h1>
     <p>
       We are a team of physicists dedicated to kindling the flame of
@@ -127,7 +143,7 @@
     </p>
   </div>
 
-  <div id="Cosmology">
+  <div id="Cosmology" class="right">
     <h1>Cosmology and CMBR</h1>
     <p>
       Here is a bunch more information for curious students
@@ -177,5 +193,5 @@
   </div>
 
 </body>
-
+<script src="script.js"></script>
 </html>
