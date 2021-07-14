@@ -134,6 +134,19 @@ p{
   justify-content: space-between;
 }
 
+#ContactUs a{
+  color: white;
+  text-decoration: none;
+}
+
+#ContactUs #download_link{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+
+  border: 2px white solid;
+}
+
 
 
 /*
